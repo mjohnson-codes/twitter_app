@@ -12,8 +12,10 @@
 
 <p>
   <strong>Tweets:</strong>
-  <% @user.tweets.each do |tweet| %>     
-        <%= tweets.content %> by 
+  <% @user.tweets.each do |tweet| %>  
+  <div> 
+        <%= tweet.content %> by 
+  </div>  
     <% end %> 
 </p>
 
